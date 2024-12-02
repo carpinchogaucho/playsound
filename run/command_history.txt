@@ -1,0 +1,10 @@
+/playsound minecraft:block.bamboo_wood.fall master Player34
+/customplaysound minecraft:block.bamboo_wood.fall
+/playsound minecraft:ambient.basalt_deltas.additions master @a
+/customplaysound minecraft:block.bamboo_wood.fall
+/customplaysound minecraft:block.bubble_column.upwards_inside
+/customplaysound
+/customplaysound minecraft:block.ancient_debris.place
+/customplaysound minecraft:ambient.underwater.loop.additions.ultra_rare
+/customplaysound minecraft:ambient.basalt_deltas.loop
+/customplaysound minecraft:block.sculk.break

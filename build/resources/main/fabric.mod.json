@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "playsound",
+  "version": "2.0",
+  "name": "PlaySound",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/playsound/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "org.carpincho.playsound.client.PlaysoundClient"
+    ],
+    "main": [
+      "org.carpincho.playsound.Playsound"
+    ]
+  },
+  "mixins": [
+    "playsound.mixins.json",
+    {
+      "config": "playsound.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "fabric": "*",
+    "minecraft": "1.20.4"
+  }
+}
